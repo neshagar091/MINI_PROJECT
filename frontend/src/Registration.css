@@ -1,0 +1,49 @@
+body {
+    /* background-image: url('https://w.wallhaven.cc/full/n6/wallhaven-n673ww.jpg'); */
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+.registration-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .registration-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .registration-container form div {
+    margin-bottom: 15px;
+  }
+  
+  .registration-container label {
+    font-weight: bold;
+  }
+  
+  .registration-container input {
+    padding: 10px;
+    border: 1px solid #190202;
+    border-radius: 4px;
+  }
+  
+  .registration-container button {
+    padding: 10px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .registration-container button:hover {
+    background-color: #45a049;
+  }
+  

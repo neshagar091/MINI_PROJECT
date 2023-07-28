@@ -1,0 +1,87 @@
+/* RoomSelectionPage.css */
+.room-selection-page {
+    padding: 20px;
+    height: 70vh;
+    margin-bottom: 20px;
+    background-image: linear-gradient( 58.2deg,  rgba(40,91,212,0.73) -3%, rgba(171,53,163,0.45) 49.3%, rgba(255,204,112,0.37) 97.7% );
+    overflow-y: auto;
+  }
+  
+  .room-selection-page .location-selector {
+    margin-bottom: 20px;
+  }
+  
+  .room-selection-page .room-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+  }
+  
+  .room-selection-page .room-card {
+    background-color: rgba(255, 255, 255, 0.5);
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .room-selection-page .room-card:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .room-selection-page .room-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .room-selection-page .room-card h2 {
+    margin: 10px 0;
+    font-size: 1.2rem;
+  }
+  
+  .room-selection-page .room-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+  }
+  
+  .room-selection-page .room-card a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(28, 120, 28);
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .room-selection-page .room-card a:hover {
+    background-color: #ff4630;
+  }
+  
+  /* Room location selector styling */
+  .room-selection-page .location-selector {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .room-selection-page .location-selector h3 {
+    font-size: 1.2rem;
+    margin-right: 10px;
+  }
+  
+  .room-selection-page .location-selector select {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+  }
+  

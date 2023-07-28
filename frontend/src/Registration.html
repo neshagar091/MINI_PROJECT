@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration Form</title>
+  <link rel="stylesheet" type="text/css" href="Registration.css">
+</head>
+<body>
+  <div class="registration-container">
+    <h2>Registration Form</h2>
+    <form id="registrationForm">
+      <div>
+        <label for="name">Name:</label>
+        <input type="text" id="name" required>
+      </div>
+      <div>
+        <label for="email">Email:</label>
+        <input type="email" id="email" required>
+      </div>
+      <div>
+        <label for="phone">Phone:</label>
+        <input type="tel" id="phone" required>
+      </div>
+      <div>
+        <label for="checkInDate">Check-in Date:</label>
+        <input type="date" id="checkInDate" required>
+      </div>
+      <div>
+        <label for="checkOutDate">Check-out Date:</label>
+        <input type="date" id="checkOutDate" required>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+
+  <script src="Registration.js"></script>
+</body>
+</html>

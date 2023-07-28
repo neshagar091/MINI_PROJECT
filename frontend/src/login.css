@@ -1,0 +1,99 @@
+/* Login.css */
+
+.top {
+  background-image: url('https://w.wallhaven.cc/full/n6/wallhaven-n673ww.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: "0";
+  width: 196.25vh;
+}
+.topReg {
+  background-image: url('https://img.freepik.com/free-photo/restaurant-interior_1127-3394.jpg?w=1060&t=st=1688915739~exp=1688916339~hmac=bb7ffd20990cf5b28498e7875fb2a11f302e28d956efb1b6d8261da8541cd454');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: "0";
+  width: 196.25vh;
+}
+
+.login-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #0f0000;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+    background-color: rgba(236, 236, 236, 0.5); 
+    background-size: cover;
+    background-position: center;
+    
+  }
+  
+  .login-container h2 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .login-container form div {
+    margin-bottom: 15px;
+    display: flex;
+  flex-direction: column;
+  }
+  
+  .login-container label {
+    font-weight: bold;
+    font-weight: bold;
+    margin-bottom: 5px;
+
+  }  
+  
+  .login-container input {
+    padding: 10px;
+    border: 1px solid #190202;
+    border-radius: 4px;
+    margin-bottom: 10px;
+  }
+  
+  .login-container button {
+    padding: 10px;
+    background-color: #4c4eaf;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #45a049;
+  }
+  .login-container-bottom {
+    /* margin-top: 20px; */
+    text-align: center;
+  }
+  
+  .login-container-bottom p {
+    /* margin-bottom: 10px; */
+  }
+  
+  .login-container-bottom a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .login-container-bottom a:hover {
+    text-decoration: underline;
+  }
+  
+  

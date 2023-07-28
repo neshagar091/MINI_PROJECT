@@ -1,0 +1,81 @@
+/* About.css */
+
+body{
+  background-color: #f9f9f9;
+  background-image: url('https://images.pexels.com/photos/2467558/pexels-photo-2467558.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hotel Booking');
+  display: flex;
+  justify-content: center;
+}
+
+.about-content {
+  max-width: 800px;
+  text-align: center;
+  background-color: #252424;
+  opacity: 0.7;
+}
+
+.about h2 {
+  font-size: 36px;
+  color: #fffafa;
+  margin-bottom: 20px;
+}
+
+.about p {
+  font-size: 18px;
+  color: white;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.about-image {
+  position: relative;
+  max-width: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.about-image:hover img {
+  transform: scale(1.05);
+}
+
+.about-image:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.about-image:hover:before {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 40px;
+  }
+
+  .about-content {
+    text-align: center;
+  }
+
+  .about h2 {
+    font-size: 30px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+}
+
